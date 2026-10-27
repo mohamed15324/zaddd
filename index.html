@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>زاد | رفيق عباداتك</title>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="app">
+        <header>
+            <div class="data"></div>
+            <div class="text">
+                <div class="logo">✦</div>
+                <div class="tx">
+                    <p class="bld">زاد</p>
+                    <p class="no">رفيقك في طريق الطاعه</p>
+                </div>
+            </div>
+           
+        </header>
+    
+        <section class="start">
+            <h3 class="allah">بِسْمِ اللهِ نَبْدَأُ</h3>
+            <div class="all">
+            <div class="verse">
+                <h4 class="ayah">﴿ وَاذْكُر رَّبَّكَ كَثِيرًا ﴾</h4>
+                <p class="surah">سورة آل عمران · ٤١</p>
+
+            </div>
+            <div class="wise">
+                خطوة صغيرة كل يوم،
+                <br>
+وأثر كبير مع الوقت.
+<h3 class="conc">تابع عباداتك بهدوء، واحتفل باستمرارك لا بكمالك. اجعل نيتك حاضرة، وخطوتك القادمة واضحة.</h3>
+</div>
+            </div>
+        </section>
+        
+        <div class="section-title">
+            <h3>ملخص يومك</h3>
+            <span id="summary">كل بداية طيبة تستحق التقدير</span></div>
+
+        <section class="summary">
+                        <div class="prays">
+            <div class="cate">
+                <span>الصلوات</span>
+                <div class="ico">☪</div>
+            </div>
+            <div class="num">
+                <span id="prayerCount"></span>
+                <small style="font-size:15px;color:#78847b"> / 5</small>
+            </div>
+            <div class="sub">صلوات تم تسجيلها</div>
+            <div class="progress">
+                
+            </div>
+            </div>
+            <div class="prays">
+            <div class="cate">
+                <span>القرآن الكريم</span>
+                <div class="ico">📖</div>
+            </div>
+            <div class="num">
+                <span id="quranCount">0</span>
+                <small style="font-size:15px;color:#78847b"> / 20</small>
+            </div>
+            <div class="sub">صلوات تم تسجيلها</div>
+            <div class="progress">
+                
+            </div>
+            </div>
+                        <div class="prays">
+            <div class="cate">
+                <span>الأذكار</span>
+                <div class="ico">🤲</div>
+            </div>
+            <div class="num">
+                <span id="athkarCount">0</span>
+                <small style="font-size:15px;color:#78847b"> / 3</small>
+            </div>
+            <div class="sub">صلوات تم تسجيلها</div>
+            <div class="progress">
+                
+            </div>
+            </div>
+
+            <div class="prays">
+            <div class="cate">
+                <span>مهام اليوم</span>
+                <div class="ico">✓</div>
+            </div>
+            <div class="num">
+                <span id="tasksCount">0</span>
+                <small style="font-size:15px;color:#78847b" id="tasksNum"></small>
+            </div>
+            <div class="sub">مهام مكتمله</div>
+            <div class="progress">
+                
+            </div>
+            </div>
+            
+        </section>
+
+                <div class="section-title">
+            <h3>صلوات اليوم</h3>
+            <span id="summary">اضغط على العلامة عند إتمام الصلاة</span></div>
+
+        <section class="prayers">
+            <div class="fajr">
+                <div class="check">
+                <span> 
+                   
+                    الفجر</span>
+                    </div>
+                    <div class="time">
+                                      <span class="f"></span>
+                                       <button class="ch" id="f">صليت</button>
+                    </div>
+            </div>
+            <div class="fajr">
+                <div class="check">
+                <span> 
+                   
+                    الظهر</span>
+                    </div>
+                    <div class="time">
+                                      <span class="d"></span>
+                                       <button class="ch" id="d">صليت</button>
+                    </div>
+            </div>
+            <div class="fajr">
+                <div class="check">
+                <span> 
+                   
+                    العصر</span>
+                    </div>
+                    <div class="time">
+                                      <span class="s"></span>
+                                       <button class="ch" id="s">صليت</button>
+                    </div>
+            </div>
+            <div class="fajr">
+                <div class="check">
+                <span> 
+                   
+                    المغرب</span>
+                    </div>
+                    <div class="time">
+                                      <span class="m"></span>
+                                       <button class="ch" id="m">صليت</button>
+                    </div>
+            </div>
+            <div class="fajr">
+                <div class="check">
+                <span> 
+                   
+                    العشاء</span>
+                    </div>
+                    <div class="time">
+                                      <span class="i"></span>
+                                       <button class="ch" id="i">صليت</button>
+                    </div>
+            </div>
+        </section>
+
+                <div class="section-title">
+            <h3>مهام يومك</h3>
+            <span id="summary">كل بداية طيبة تستحق التقدير</span></div>
+
+            <section class="tasks">
+                <div class="task">
+                <div class="task-title">
+                    <h3 style="font-size:17px">🌿 عادات وعبادات</h3>
+                    <span>قائمة المهام</span>
+                </div>
+                <div class="insert"></div>
+                
+                <div class="add-row">
+                    <input type="text" placeholder="اضف عاده او عباده" class="add">
+                    <button class="btn">اضافه</button>
+                    </div>
+                </div>
+                <div class="thkr">
+                    <div class="thkr-title">
+                        <h3 style="font-size:17px">📿 عدّاد الذكر</h3>
+                    <span>اضغط مع كل تسبيحة</span>
+                    </div>
+                    <p style="color:var(--muted);font-size:13px;line-height:1.8">اختر ذكرًا واجعل لك منه وردًا يوميًا.</p>
+<select id="dhikrSelect" style="width:100%;padding:11px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)">
+    <option>سبحان الله</option><option>الحمد لله</option><option>الله أكبر</option><option>أستغفر الله</option><option>لا إله إلا الله</option></select>
+    <div id="counter" style="font-size:52px;color:var(--green);font-weight:bold">2</div>
+    <div id="dhikrName" style="color:var(--muted)">سبحان الله</div>
+<div style="display:flex;gap:8px;margin-top: 10px;"><button class="btn" id="countBtn" style="flex:1;padding:14px">تسبيحة +</button><button class="btn secondary" id="resetBtn">إعادة</button></div>
+                </div>
+            </section>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
