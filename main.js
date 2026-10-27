@@ -1,6 +1,6 @@
 let setData =  document.querySelector(".data");
 let today = new Date();
-let tasks = JSON.parse(localStorage.getItem("tasks") || []);
+let tasks = JSON.parse(localStorage.getItem("tasks") || "[]");
 
 let checkTasks = document.getElementById("tasksCount");
 
