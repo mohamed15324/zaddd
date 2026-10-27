@@ -5,7 +5,7 @@ let tasks = JSON.parse(localStorage.getItem("tasks") || []);
 let checkTasks = document.getElementById("tasksCount");
 
 
-let tasksCount = localStorage.getItem("tCount") || 0;
+let tasksCount = 0;
 checkTasks.innerHTML = tasksCount;
 let tasksNum = document.getElementById("tasksNum");
 
